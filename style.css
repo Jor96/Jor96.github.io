@@ -1,0 +1,145 @@
+h1
+{
+    width: 300px;
+    /* centrer le titre */
+    margin:0 auto ;
+    background-color: blueviolet;
+  font-family: Georgia;
+}
+
+header { 
+    text-align: center;
+    background-image: url(https://lemag.nikonclub.fr/wp-content/uploads/2019/04/photo9.jpg );
+}
+#presentation {
+    background-color: white;
+    width: 300px;
+    margin: 0 auto;
+}
+img {
+
+background-image: url(https://i.pinimg.com/originals/98/90/11/98901115cb77a2624d6c8e3e4dfa1284.jpg);
+width: 400px;
+height: 400px;
+}
+h2 {
+width: 300px;
+margin:0 auto;
+background-color: coral;
+}
+
+h3 {
+width: 120px;
+margin:0 left;
+background-color: lightskyblue;
+border-style: solid;  
+border-color: black;
+border-width: 1px;
+width:200px;
+}
+.mes-qualités{
+    background-color: lightskyblue;
+border-style: solid;  
+border-color: black;
+border-width: 1px;
+width:200px;
+
+}
+h4{ width: 120px;
+    margin:0 right;
+    background-color: brown;
+    border-style: solid;  
+    border-color: black;
+    border-width: 1px;
+    width:150px;
+}
+#h4 p { text-align: center;
+}
+
+.mes-competences{
+    background-color: brown;
+border-style: solid;
+border-color: black;
+border-width: 1px;
+width: 150px;
+}
+#mes-competences{
+    display: flex;
+    flex-direction:column;
+    align-items:flex-end;
+
+}
+
+
+/* #mes-competences p{
+   
+    text-align: right;
+} */
+
+#presentation p{ 
+    
+    text-align: center;
+}
+
+h5 { 
+    text-align: center;
+font-size: larger;
+}
+h6 { 
+    text-align: left;
+font-size: larger;
+}
+
+div, header
+{
+text-align: center;
+}
+
+#main {
+    display: flex;
+}
+
+#main-right {
+    flex: 1;
+}
+
+#main-right-top {
+    display: flex;
+    justify-content: space-around;
+}
+
+#diplomes-formations {
+    flex: 3;
+}
+#mes-competences {
+    flex: 1;
+}
+
+#main-right-bottom {
+    display: flex;
+    justify-content: space-around;
+    border: 1px black;
+}
+.content img{
+    background-image: url(https://i.skyrock.net/5571/89655571/pics/3197711969_1_2_z46yk3so.jpg) ;
+margin: 10px;
+width: 700px;
+height: 500px; 
+}
+
+#main-right-bottom section{
+    width: 100%;
+}
+
+#langues-parlees {
+    display: flex;
+    width: 100%;
+}
+
+#langues-parlees p{
+    flex: 1;
+}
+
+#langues-parlees img{
+    align-self: flex-end;
+}
